@@ -1,0 +1,16 @@
+---
+import Info from '../config/algo.json'
+//console.log(Info)
+---
+<div class="grid grid-cols-2">
+    {
+        Info.map((carac)=> (
+            <div class="bg-slate-800 p-10 rounded-xl m-10">
+                <h2>{carac.title}</h2>
+                <p>{carac.description}</p>
+            </div>
+        ))
+    }
+</div>
+
+
