@@ -1,5 +1,4 @@
 ---
-import Footer from '../components/Footer.astro'
 interface Props{
     title?: string;
 }
@@ -7,20 +6,43 @@ interface Props{
 const {title} = Astro.props;
 
 import '../styles/Layout.css'
+
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
+
+/*import bootstrap from 'bootstrap/dist/js/bootstrap' */
+import * as AOS from 'aos';
+import * as $ from 'jquery';
 ---
 
 <!DOCTYPE html>
 <html lang="en">
+    <script src={bootstrap}></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astro - {title}</title>
+    <link rel="icon" href="images/logo2.png">
+    <title>{title}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
 </head>
+
 <body>
-    <main class="mx-auto container bg-black-600 p-10">
+  
+    <main>
         <slot/>
     </main>
-    <Footer/>
+    
+    <script>
+        import AOS from 'aos';
+        import 'aos/dist/aos.css';
+        AOS.init();
+    </script>
+
 </body>
 </html>
