@@ -3,6 +3,9 @@ module.exports = {
 	content: ['./src/**/*.{html,astro,js}'],
 	theme: {
 		extend: {
+			backgroundImage: {
+				'hero': "url('/images/back5.png')"
+			  },
 			transitionProperty:{
 				'appBar': 'transform 0.6s ease-out'
 			},
