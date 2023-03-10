@@ -15,10 +15,10 @@ import Layout from '../layouts/Layout.astro'
 
 <Layout title={"Èric Subirana"}  >
 	<Header/>
-	<div class="bg-[url('images/starts2.jpg')] text-stone-200 font-poppins bg-center bg-no-repeat bg-cover h-screen">
-		<StartPage/>	
+	<div class="pep text-stone-200 font-poppins bg-center bg-no-repeat bg-cover h-screen">
+		<StartPage/>
+		<img src="images/starts2.jpg" class=" absolute">	
 	</div>
-	<img src="images/starts2.jpg" class=" absolute">
 	<AboutMe/>
 	<div class=" bg-orange-50">
 		<Projects/>
@@ -31,3 +31,8 @@ import Layout from '../layouts/Layout.astro'
 	</div>
 </Layout>
 
+<style>
+	.pep{
+		background-image: url('images/starts2.jpg');
+	}
+</style>
