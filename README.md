@@ -1,6 +1,6 @@
 <h1 align="center">I'm Èric Subirana</h1> 
 <h3 align="center"> An enthusiastic student of software engineering hailing from Barcelona.</h3>
-<p> I’m currently studying [Enginyeria Informàtica](http://www.uab.cat) in Universitat Autònoma de Barcelona. </p>
+<p> I’m currently studying [Enginyeria Informàtica].(http://www.uab.cat) in Universitat Autònoma de Barcelona. </p>
 
 - 📜 Wanna contact me? 👉 ericsubirana4444@gmail.com
 
