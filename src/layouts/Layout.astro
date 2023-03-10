@@ -1,8 +1,4 @@
 ---
-interface Props{
-    title?: string;
-}
-
 const {title} = Astro.props;
 
 import '../styles/Layout.css'
@@ -11,9 +7,6 @@ import '../styles/Layout.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 
-/*import bootstrap from 'bootstrap/dist/js/bootstrap' */
-import * as AOS from 'aos';
-import * as $ from 'jquery';
 ---
 
 <!DOCTYPE html>
@@ -37,12 +30,10 @@ import * as $ from 'jquery';
     <main>
         <slot/>
     </main>
-    
     <script>
         import AOS from 'aos';
         import 'aos/dist/aos.css';
         AOS.init();
     </script>
-
 </body>
 </html>
