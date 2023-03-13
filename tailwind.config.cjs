@@ -20,7 +20,7 @@ module.exports = {
 			keyframes:{
 				typing: {
 					'0%': { width: 0 },
-					'100%': { width: 490 }
+					'100%': { width: 450 }
 				},
 				blink_caret:{
 					'0%, 100%': {'border-color':' transparent'},
