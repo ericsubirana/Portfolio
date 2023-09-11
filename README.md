@@ -3,7 +3,7 @@
 
 I’m currently studying [Enginyeria Informàtica](http://www.uab.cat) in Universitat Autònoma de Barcelona.
 
-- 📜 Wanna contact me? 👉 ericsubirana4444@gmail.com 
+- 📜 in case you want to contact me 👉 ericsubirana4444@gmail.com 
 
 - 🎓 I’m currently learning **React & FireBase**
 
